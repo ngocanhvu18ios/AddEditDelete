@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		846FD6B6217F1A9B00690AC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FD6B5217F1A9B00690AC7 /* AppDelegate.swift */; };
-		846FD6B8217F1A9B00690AC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FD6B7217F1A9B00690AC7 /* ViewController.swift */; };
 		846FD6BB217F1A9B00690AC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FD6B9217F1A9B00690AC7 /* Main.storyboard */; };
 		846FD6BD217F1A9D00690AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846FD6BC217F1A9D00690AC7 /* Assets.xcassets */; };
 		846FD6C0217F1A9D00690AC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FD6BE217F1A9D00690AC7 /* LaunchScreen.storyboard */; };
+		846FD6C8217F1B1500690AC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FD6C7217F1B1500690AC7 /* ViewController.swift */; };
+		846FD6CA217F1B3400690AC7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846FD6C9217F1B3400690AC7 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		846FD6B2217F1A9B00690AC7 /* AddEditDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddEditDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FD6B5217F1A9B00690AC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		846FD6B7217F1A9B00690AC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		846FD6BA217F1A9B00690AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846FD6BC217F1A9D00690AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846FD6BF217F1A9D00690AC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846FD6C1217F1A9D00690AC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846FD6C7217F1B1500690AC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846FD6C9217F1B3400690AC7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				846FD6B5217F1A9B00690AC7 /* AppDelegate.swift */,
-				846FD6B7217F1A9B00690AC7 /* ViewController.swift */,
+				846FD6C7217F1B1500690AC7 /* ViewController.swift */,
+				846FD6C9217F1B3400690AC7 /* TableViewController.swift */,
 				846FD6B9217F1A9B00690AC7 /* Main.storyboard */,
 				846FD6BC217F1A9D00690AC7 /* Assets.xcassets */,
 				846FD6BE217F1A9D00690AC7 /* LaunchScreen.storyboard */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846FD6B8217F1A9B00690AC7 /* ViewController.swift in Sources */,
+				846FD6C8217F1B1500690AC7 /* ViewController.swift in Sources */,
+				846FD6CA217F1B3400690AC7 /* TableViewController.swift in Sources */,
 				846FD6B6217F1A9B00690AC7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AddEditDelete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AddEditDelete/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
